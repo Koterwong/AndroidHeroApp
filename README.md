@@ -1,6 +1,7 @@
 # AndroidHeroApp
-Android群英传，书中的全部例子写的App包括读书笔记
-本笔记部分来自了[hujiaweibujidao这位大神写的笔记](http://hujiaweibujidao.github.io/)
+Android群英传，书中的全部例子写的App
+
+### 以下是读书笔记
 
 ## Android Heroes 
 
@@ -1052,7 +1053,7 @@ switch (flag) {
 
 
 
-
+## 本笔记部分来自[hujiaweibujidao这位大神写的笔记](http://hujiaweibujidao.github.io/)
 
 
 
