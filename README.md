@@ -1,6 +1,6 @@
 # AndroidHeroApp
 Android群英传，书中的全部例子写的App
-
+![截图](https://raw.githubusercontent.com/Koterwong/AndroidHeroApp/master/Android%E7%BE%A4%E8%8B%B1%E4%BC%A0.png)
 ### 以下是读书笔记
 
 ## Android Heroes 
