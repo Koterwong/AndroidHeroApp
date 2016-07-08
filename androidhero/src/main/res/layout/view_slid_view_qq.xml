@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.koterwong.androidhero.chapter_05.SlideViewQQ
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/teal"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/brown"/>
+
+</com.koterwong.androidhero.chapter_05.SlideViewQQ>

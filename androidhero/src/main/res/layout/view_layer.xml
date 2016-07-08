@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.koterwong.androidhero.chapter_06.LayerTestView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#88000000"
+        android:text="在Android中图层是基于栈的结构来管理的，通过调用saveLayer()、saveLayerAlpha()方法来创建图层和创建一个透明的图层，即入栈创建一个图层栈，使用restore、restoreToCount方法合并一个或多个图层，即出栈，将图层上的内容合并到canvas上。入栈的时候，后面所有的操作都发生在这个图层上，而出栈的时候则会把图像绘制在上层Canvas上。"/>
+
+</LinearLayout>

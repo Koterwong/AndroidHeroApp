@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_android_orange_600_36dp"/>
+    <item android:state_window_focused="true" android:drawable="@drawable/ic_keyboard_arrow_up_black_36dp"/>
+    <item android:state_window_focused="false" android:drawable="@drawable/ic_keyboard_arrow_down_black_36dp"/>
+
+
+</selector>

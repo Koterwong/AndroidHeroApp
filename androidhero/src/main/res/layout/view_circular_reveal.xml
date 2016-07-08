@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:text="selectableItemBackground"
+        android:textAllCaps="false"
+        android:layout_height="100dp"/>
+
+
+    <Button
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="selectableItemBackgroundBorderless"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:text="RippleXml"
+        android:textAllCaps="false"
+        android:background="@drawable/ripple_xml"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:id="@+id/btn_ripple"
+            android:layout_marginLeft="10dp"
+            android:text="Circuler Reveal"
+            android:textAllCaps="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/state_list_animation"
+            android:stateListAnimator="@drawable/anim_change"
+            android:layout_marginLeft="10dp"
+            android:text="stateListAnimator"
+            android:textAllCaps="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <ImageView
+            android:id="@+id/anim_list"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/animator_list"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

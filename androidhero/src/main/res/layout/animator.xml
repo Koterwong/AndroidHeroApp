@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/property_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="property_animator"
+        />
+
+    <Button
+        android:id="@+id/property_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="property_wrapper"
+        />
+
+    <Button
+        android:id="@+id/property_values_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="propertyValuesHolder"
+        />
+
+    <TextView
+        android:id="@+id/property_values_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="计时器动画"
+        android:textColor="@color/deep_purple"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/property_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimatorSet"
+        />
+
+    <Button
+        android:id="@+id/property_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="property_xml"
+        />
+
+    <Button
+        android:id="@+id/property_viewCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViewCompat"
+        />
+
+
+</LinearLayout>

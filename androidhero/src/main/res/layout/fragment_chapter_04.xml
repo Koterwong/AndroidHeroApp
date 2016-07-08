@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_flexible_list_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="弹性ListView"
+        />
+
+    <Button
+        android:id="@+id/btn_hide_list_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="hideListView"
+        />
+
+    <Button
+        android:id="@+id/btn_chat_list_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="chat_list_view"
+        />
+
+    <Button
+        android:id="@+id/btn_focus_list_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:text="focus_list_view"
+        />
+
+</LinearLayout>

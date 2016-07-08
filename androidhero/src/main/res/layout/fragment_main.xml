@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".DemoActivity"
+        >
+
+        <Button
+            android:id="@+id/btn_demo_charpter"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_03:View知识体系"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_04"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_04:ListView使用技巧"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_05"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_05:Android Scroll分析"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_06"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_06:Android绘图机制和处理技巧"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_07"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_07:Android 动画"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_08"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_08:Activity"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_09"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_09:Android系统信息与安全机制"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_10:性能优化"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_11"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_11:云端服务器"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_12"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_12:Materail Design"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_13"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="charpter_13:实例提高"
+            />
+
+        <Button
+            android:id="@+id/btn_x_puzzle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="移动迷宫，拼图游戏"
+            />
+        <Button
+            android:id="@+id/btn_game_2048"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:text="魔幻矩阵-2048"
+            />
+    </LinearLayout>
+</ScrollView>
+

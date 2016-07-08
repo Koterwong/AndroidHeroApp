@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/basic_notify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Collapsed"
+        android:textAllCaps="false"
+        android:id="@+id/collapsedNotify"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Headsup"
+        android:textAllCaps="false"
+        android:id="@+id/headsupNotify" />
+</LinearLayout>

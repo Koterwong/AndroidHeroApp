@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:padding="@dimen/activity_horizontal_margin"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.koterwong.androidhero.chapter_03.RectTextView
+        android:text="I love Android"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.koterwong.androidhero.chapter_03.GradientShaderTextView
+        android:text="I lova Android"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.koterwong.androidhero.chapter_03.TopBar
+        android:id="@+id/top_bar"
+        app:leftText="左标题"
+        app:leftTextColor="@color/colorAccent"
+        app:leftBackground="@color/colorPrimary"
+        app:title="标题"
+        app:titleTextSize="18sp"
+        app:titleTextColor="#ff000000"
+        app:rightBackground="@color/colorPrimaryDark"
+        app:rightTextColor="@color/colorAccent"
+        app:rightText="右标题"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <com.koterwong.androidhero.chapter_03.CircleProgressView
+        android:id="@+id/circle_progress"
+        android:layout_width="180dp"
+        android:layout_height="180dp"/>
+
+    <com.koterwong.androidhero.chapter_03.VolumeView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/my_scroll_view"
+        android:text="myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/my_view_layout"
+        android:text="my_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

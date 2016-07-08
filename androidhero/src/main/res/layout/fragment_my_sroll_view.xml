@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.koterwong.androidhero.chapter_03.MyScrollView_02 xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="this is first view"
+        android:background="@color/amber"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:text="this is second view"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:text="this is third view"
+        android:background="@color/cyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:text="this is fore view"/>
+
+</com.koterwong.androidhero.chapter_03.MyScrollView_02>
